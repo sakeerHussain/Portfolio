@@ -61,12 +61,24 @@ body{
     height: 56px;
 }
 
-/* .position-absolute{
-    /* top: 10px; */
-    bottom: 22px;
-    left:0
-} */
+
 .bi-github{
     font-size: 20px;
 }
 
+/* Get in contacts */
+
+.get-in-contact {
+    background-color: #f8f9fa;
+}
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.contact-info {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.social-links .btn {
+    font-size: 1.25rem;
+}
