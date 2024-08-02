@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* Nav-Bar */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .navbar-brand h5 {
+    margin-bottom: 0;
+} */
+.navbar-brand img {
+    height: 40px; /* Adjust based on your logo size */
+    width: auto;
+}
+.btn-dark {
+    display: flex;
+    align-items: center;
+}
+.btn-dark i {
+    margin-left: 8px; /* Adjust spacing between text and icon */
+}
+
+/* Hero-section */
+
+.hero-banner {
+    background-color: #f8f9fa; /* Light background for visibility */
+    /* padding: 20px; */
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.hero-content h3 {
+    /* font-size: 2rem;  */
+    font-size: clamp(1.5rem, 2.5vw, 2rem); /* Responsive text size */
+}
+.hero-content span {
+    max-width: 400px;
+    /* font-size: 1rem;  */
+    font-size: clamp(0.9rem, 1.5vw, 1rem); /* Responsive text size */
+    color: #6c757d; 
+}
+.hero-banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.link-btn{
+    width: 56px;
+    height: 56px;
+}
+
+/* .position-absolute{
+    /* top: 10px; */
+    bottom: 22px;
+    left:0
+} */
+.bi-github{
+    font-size: 20px;
+}
+
